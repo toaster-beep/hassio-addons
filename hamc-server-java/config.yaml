@@ -64,7 +64,7 @@ schema:
   CF_API_KEY: str
   CF_PAGE_URL: str
   CF_FORCE_INCLUDE_MODS: str
-  AUTO_CURSEFORGE: str
+  MODPACK_PLATFORM: str
 map:
   - addons:rw
 environment:
