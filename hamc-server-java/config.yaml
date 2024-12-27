@@ -38,6 +38,7 @@ options:
   CF_PAGE_URL: "Mod/ModPack URL here"
   CF_FORCE_INCLUDE_MODS: "Additional Mods to include"
   MODPACK_PLATFORM: "AUTO_CURSEFORGE"
+  COPY_MODS_SRC: "/config"
 schema:
   VERSION: str
   SERVER_NAME: str
@@ -65,7 +66,10 @@ schema:
   CF_PAGE_URL: str
   CF_FORCE_INCLUDE_MODS: str
   MODPACK_PLATFORM: str
+  COPY_MODS_SRC: str
 map:
   - addons:rw
+  - addon_config:rw
+  - /mnt/mods:rw
 environment:
   EULA: "TRUE"
