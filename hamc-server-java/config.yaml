@@ -27,6 +27,7 @@ options:
   MAX_WORLD_SIZE: 29999984
   ALLOW_NETHER: true
   SEED: ""
+  ALLOW_FLIGHT: true
   VIEW_DISTANCE: 10
   ONLINE_MODE: true
   MEMORY: 1G
@@ -55,6 +56,7 @@ schema:
   MAX_WORLD_SIZE: int
   ALLOW_NETHER: bool
   SEED: str
+  ALLOW_FLIGHT: bool
   VIEW_DISTANCE: int
   ONLINE_MODE: bool
   MEMORY: str
