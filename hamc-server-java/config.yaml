@@ -38,6 +38,7 @@ options:
   CF_API_KEY: "Your CurseForege API Key"
   CF_PAGE_URL: "Mod/ModPack URL here"
   CF_FORCE_INCLUDE_MODS: "Additional Mods to include"
+  CF_EXCLUDE_MODS: ""
   MODPACK_PLATFORM: "AUTO_CURSEFORGE"
   COPY_MODS_SRC: "/config"
 schema:
@@ -67,6 +68,7 @@ schema:
   CF_API_KEY: str
   CF_PAGE_URL: str
   CF_FORCE_INCLUDE_MODS: str
+  CF_EXCLUDE_MODS: str
   MODPACK_PLATFORM: str
   COPY_MODS_SRC: str
 map:
