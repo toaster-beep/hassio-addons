@@ -39,6 +39,7 @@ options:
   CF_PAGE_URL: "Mod/ModPack URL here"
   CF_FORCE_INCLUDE_MODS: "Additional Mods to include"
   CF_EXCLUDE_MODS: ""
+  CURSEFORGE_FILES: ""
   MODPACK_PLATFORM: "AUTO_CURSEFORGE"
   COPY_MODS_SRC: "/config"
 schema:
@@ -69,6 +70,7 @@ schema:
   CF_PAGE_URL: str
   CF_FORCE_INCLUDE_MODS: str
   CF_EXCLUDE_MODS: str
+  CURSEFORGE_FILES: str
   MODPACK_PLATFORM: str
   COPY_MODS_SRC: str
 map:
